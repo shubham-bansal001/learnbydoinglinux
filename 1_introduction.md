@@ -21,4 +21,4 @@
   /var : system logs directory
   /run : System daemons that start very early to store temp run files like PID
   /mnt : to mount external filesystem (eg NFS)
-  /media : for cdrom mounts or USB media.
+  /media : for cdrom mounts or USB media
