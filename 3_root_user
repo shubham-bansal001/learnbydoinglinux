@@ -1,0 +1,33 @@
+## Root itself has multiple meaning in linux
+
+
+There can be 
+1. Root user which has all permissions to perform all tasks and stuff in linux OS
+2. Root directory which is "/" in terminal, it the root of the structure of all filesystem.
+3. Root home directoy which is "/root" , home  working directory for all stuff related to root user
+
+
+## Change Password:
+you can easily change password for any user by loggin into system by root user and then running the below command:
+```
+password user_name
+```
+
+
+## Relative Vs Absolute path:
+
+Relative path is described in terms from present directory, like we define the path to go to any directory but from present
+Example
+
+```
+cd samba/beta/file.txt
+```
+
+Absolute path is given from context of root directory "/" so the path of every file will be from root directory.
+
+Example:
+```
+cd /home/shubham/workspace/dev/file.txt
+```
+
+*Notice the difference between starting of paths of relative and absolute*
