@@ -1,0 +1,22 @@
+### cp command
+You can copy the directory in multiple ways:
+
+cp source/filename destination/filename
+
+Another way to copy the entire directory is
+`
+cp -r /src /var/log
+`
+
+### Find and Locate command
+
+find command can be used to find easily any file and similarly locate as well like for example
+
+`
+shubham@LAPTOP-OR1O9MJ3:~$ ls
+directory1  directory2  file.txt  file2.txt
+shubham@LAPTOP-OR1O9MJ3:~$ find . -name "random.txt"
+./directory1/random.txt
+`
+
+The difference between locate command and find command is that the locate command uses a caching db stored in system and is much faster but needs to be regularly updated which goes by command "updatedb" on the other hand find my slower then locate but still can give results without updating any db.
