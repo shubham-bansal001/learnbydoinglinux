@@ -1,0 +1,7 @@
+ACL are used to set permissions for file access to specific users not the entire group
+
+command:
+```
+setfacl -m  u:user:rwx file2.txt #command to add
+setfacl -x u:user file2.txt #to remove perms
+```
